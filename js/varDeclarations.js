@@ -1,0 +1,14 @@
+var gamma = Math.pow(10,-1)*10;
+var canvas = document.querySelector("#mittCanvas");
+var ctx = canvas.getContext("2d");
+var tick = 0;
+var time_s = 0;
+var midrightEl = document.querySelector(".mid-right");
+var distance=0;
+var clearHeight=0;
+var clearWidth=0;
+var velocityMap=-1;
+var shipNumber = 0;
+var vann = 0;
+var lodd = 0;
+var fart = 1/100;
